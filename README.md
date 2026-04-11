@@ -44,7 +44,7 @@ You can use it when:
 - `pywinauto` for Windows UI automation and window focus
 - `pygetwindow` for locating and managing windows
 - `screen-brightness-control` for display brightness
-- `rapidfuzz` for fuzzy matching app names
+- `rapidfuzz` for fuzzy matching app names and stuff
 
 ### Built-in/system tools
 - Windows shell and PowerShell
