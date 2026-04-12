@@ -1,6 +1,6 @@
 # Telegram Local Assistant
 
-A Windows-only Telegram bot that lets you control your laptop from your phone using messages sent to a telegram bot.
+A Windows-only Telegram bot that lets you control your laptop from your phone using messages sent to a telegram bot by me.
 
 ## 1. Project Title
 
