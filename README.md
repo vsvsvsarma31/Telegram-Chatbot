@@ -1,6 +1,6 @@
 # Telegram Local Assistant
 
-A Windows-only Telegram bot that lets you control your laptop from your phone using messages sent to a telegram bot by me.
+A Windows-only Telegram bot that lets you control your laptop from your phone.
 
 ## 1. Project Title
 
@@ -44,7 +44,7 @@ You can use it when:
 - `pywinauto` for Windows UI automation and window focus
 - `pygetwindow` for locating and managing windows
 - `screen-brightness-control` for display brightness
-- `rapidfuzz` for fuzzy matching app names and stuff
+- `rapidfuzz` for fuzzy matching app names
 
 ### Built-in/system tools
 - Windows shell and PowerShell
@@ -125,6 +125,8 @@ setx NIRCMD_PATH "C:\Tools\nircmd.exe"
 Important:
 - Close and reopen your terminal after using `setx`.
 - Do not share your Telegram token publicly.
+- This project does not ship with a Telegram bot token. Every user must provide their own.
+- Runtime logs and app discovery cache are stored in `%LOCALAPPDATA%\TelegramLocalAssistant`.
 
 ## 5. How to Run
 
@@ -160,6 +162,7 @@ The bot uses a simple but strict pipeline:
 9. The result is logged and returned to Telegram.
 
 This design keeps the project predictable and safer than a free-form natural language assistant.
+Runtime artifacts such as logs and the app cache are kept outside the repository folder.
 
 ## 7. Project Structure
 
@@ -297,7 +300,7 @@ Make sure `TELEGRAM_TOKEN` is set correctly in your environment.
 
 - Split `actions.py` into smaller modules.
 - Replace runtime dependency auto-installation with a one-time setup script.
-- Move secrets out of `config.py` and require environment variables only.
+- Keep secrets in environment variables only.
 - Add automated tests for parser, validator, and key-sequence parsing.
 - Add a proper PDF export step for documentation builds.
 

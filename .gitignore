@@ -1,0 +1,20 @@
+# Environment files containing secrets
+.env
+
+# Local runtime artifacts
+assistant.log
+assistant.log.*
+apps_cache.json
+*.log
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+.DS_Store
