@@ -4,7 +4,7 @@ A Windows-only Telegram bot that lets you control your laptop from your phone su
 
 ## 1. Project Title
 
-**Telegram Local Assistant**
+**Telegram Local Assistant to control laptop**
 
 ## 2. Project Overview
 
