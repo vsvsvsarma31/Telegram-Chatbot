@@ -8,7 +8,7 @@
 
 ### What Does It Do?
 
-This project is a **Telegram bot that runs on your Windows computer**. You send it a text message from your phone or any device, and it executes commands on your PC — without you touching the keyboard.
+This project is a **Telegram bot that runs commands on your Windows computer**. You send it a text message from your phone or any device, and it executes commands on your PC — without you touching the keyboard.
 
 **Examples of what you can say:**
 - `open chrome` → Chrome opens on your PC
