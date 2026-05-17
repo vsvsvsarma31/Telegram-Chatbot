@@ -24,6 +24,8 @@ def ensure_dependencies() -> None:
     import subprocess
     import sys
 
+# FAST INPUT saradhaga rasthunna
+
     package_specs = {
         "python-telegram-bot": {
             "version": "22.6",
