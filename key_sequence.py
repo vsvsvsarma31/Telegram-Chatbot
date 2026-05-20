@@ -5,7 +5,7 @@ Helpers for parsing and validating ordered keyboard actions.
 import re
 from typing import Any
 
-import pyautogui  # type: ignore
+import pyautogui  # type: ignore IDHI EDHO OKATI RASTHUNA
 
 _STEP_SPLIT_RE = re.compile(r"\s*(?:,|\bthen\b)\s*", re.IGNORECASE)
 _COUNT_RE = re.compile(r"^(?P<body>.+?)(?:\s*(?:x|\*)\s*(?P<count>\d{1,2}))?$", re.IGNORECASE)
