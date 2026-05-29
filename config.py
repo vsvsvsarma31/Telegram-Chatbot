@@ -5,7 +5,7 @@ from pathlib import Path
 #   TELEGRAM_TOKEN=123456789:your_bot_token_here
 #   ALLOWED_TELEGRAM_USER_ID=123456789
 #   NIRCMD_PATH=C:\path\to\nircmd.exe
-
+#just edho urke rasthunna
 
 def _read_optional_int(env_name: str) -> int | None:
     raw_value = os.getenv(env_name, "").strip()
