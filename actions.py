@@ -31,6 +31,7 @@ from whatsapp_handler import (  # type: ignore
     send_whatsapp_message,
 )
 #ekkada urke pedthunna, pedthune unta
+#disguting bokkalaga endhu ra nak idhi roju
 
 _pending_fuzzy: dict[int, list[dict[str, object]]] = {}
 
